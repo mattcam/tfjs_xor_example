@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "TensorFlow Javascript XOR example",
   "main": "app.js",
-  "dependencies": {},
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.9.1"
+  },
   "devDependencies": {},
   "scripts": {
     "start": "node app.js"
