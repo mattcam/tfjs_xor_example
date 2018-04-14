@@ -1,10 +1,8 @@
 # tfjs_xor_example
 
-TensorFlow Javascript XOR example
+> TensorFlow JavaScript XOR example
 
-Training XOR using TensorFlow Javascript.
-
-Motivation for creating TensorFlow Javascript XOR example was to learn and explore how to solve a basic Machine Learning problem using TensorFlow JavaScript.
+Motivation for creating TensorFlow Javascript XOR example was to learn and explore how to solve a basic machine learning problem using TensorFlow JavaScript.
 
 ## Prerequisites
 
