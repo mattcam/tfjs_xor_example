@@ -8,5 +8,7 @@ Motivation for creating TensorFlow Javascript XOR example was to explore how to 
 
 ## Usage
 
+```
 npm install
 npm run example
+```
