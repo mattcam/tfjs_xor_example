@@ -1,0 +1,26 @@
+{
+  "name": "tfjs_xor_example",
+  "version": "1.0.0",
+  "description": "TensorFlow Javascript XOR example",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattcam/tfjs_xor_example.git"
+  },
+  "keywords": [
+    "TensorFlow",
+    "Javascript",
+    "XOR"
+  ],
+  "author": "mattcam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattcam/tfjs_xor_example/issues"
+  },
+  "homepage": "https://github.com/mattcam/tfjs_xor_example#readme"
+}
