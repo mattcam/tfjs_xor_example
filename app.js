@@ -13,7 +13,7 @@ const training_data = tf.tensor2d([[0,0],[0,1],[1,0],[1,1]]);
 const target_data = tf.tensor2d([0,1,1,0]);
 
 
- var h = await model.fit(training_data, target_data, {epochs: 10000});
+ var h = await model.fit(training_data, target_data, {epochs: 3000});
 
  //console.log(util.inspect(h, { maxArrayLength: null }));
 
