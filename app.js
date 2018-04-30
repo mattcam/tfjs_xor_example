@@ -12,8 +12,10 @@ model.compile({loss: 'meanSquaredError', optimizer: 'rmsprop'});
 const training_data = tf.tensor2d([[0,0],[0,1],[1,0],[1,1]]);
 const target_data = tf.tensor2d([0,1,1,0]);
 
-
- var h = await model.fit(training_data, target_data, {epochs: 3000});
+for (let i = 1; i < 100 ; ++i) {
+ var h = await model.fit(training_data, target_data, {epochs: 30});
+   console.log("Loss after Epoch " + i + " : " + h.history.loss[0]);
+}
 
  //console.log(util.inspect(h, { maxArrayLength: null }));
 
