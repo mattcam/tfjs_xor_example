@@ -4,7 +4,7 @@
   "description": "TensorFlow Javascript XOR example",
   "main": "app.js",
   "dependencies": {
-    "@tensorflow/tfjs": "^0.9.1"
+    "@tensorflow/tfjs": "^0.12.4"
   },
   "devDependencies": {},
   "scripts": {
