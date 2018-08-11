@@ -1,5 +1,4 @@
 var tf = require('@tensorflow/tfjs');
-//var util = require('util')
 
 async function go() {
 
@@ -16,8 +15,6 @@ for (let i = 1; i < 100 ; ++i) {
  var h = await model.fit(training_data, target_data, {epochs: 30});
    console.log("Loss after Epoch " + i + " : " + h.history.loss[0]);
 }
-
- //console.log(util.inspect(h, { maxArrayLength: null }));
 
  model.predict(training_data).print();
 
